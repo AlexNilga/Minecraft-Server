@@ -7,7 +7,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_birch_forest": "2024-06-18 16:10:56 +0300",
+      "minecraft:dark_forest": "2024-06-18 16:11:46 +0300",
       "minecraft:forest": "2024-06-17 22:03:38 +0300",
+      "minecraft:deep_dark": "2024-06-18 16:30:41 +0300",
       "minecraft:river": "2024-06-17 22:04:52 +0300",
       "minecraft:grove": "2024-06-17 22:49:18 +0300",
       "minecraft:meadow": "2024-06-17 22:22:49 +0300",
@@ -394,7 +397,9 @@
       "bread": "2024-06-18 13:35:03 +0300",
       "cooked_chicken": "2024-06-17 22:24:47 +0300",
       "cooked_mutton": "2024-06-17 22:21:54 +0300",
-      "cooked_beef": "2024-06-17 22:10:58 +0300"
+      "cooked_beef": "2024-06-17 22:10:58 +0300",
+      "baked_potato": "2024-06-18 15:55:22 +0300",
+      "carrot": "2024-06-18 15:32:19 +0300"
     },
     "done": false
   },
@@ -1434,12 +1439,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2024-06-18 14:15:21 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2024-06-18 14:04:46 +0300"
@@ -1458,33 +1457,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
-    "criteria": {
-      "has_string": "2024-06-18 14:15:21 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-06-18 14:12:31 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2024-06-18 14:04:46 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2024-06-18 14:15:21 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tripwire_hook": {
-    "criteria": {
-      "has_string": "2024-06-18 14:15:21 +0300"
     },
     "done": true
   },
@@ -1500,15 +1475,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/candle": {
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2024-06-18 14:04:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2024-06-18 14:04:46 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-06-18 14:12:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2024-06-18 14:15:21 +0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_slab": {
+  "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
-      "has_planks": "2024-06-18 14:04:46 +0300"
+      "has_string": "2024-06-18 14:15:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-06-18 14:15:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-06-18 14:15:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-06-18 14:15:21 +0300"
     },
     "done": true
   },
@@ -1518,9 +1529,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_stairs": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_planks": "2024-06-18 14:04:46 +0300"
+      "has_bow": "2024-06-18 15:56:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-06-18 15:56:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-06-18 16:12:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-06-18 16:12:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-06-18 16:16:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-06-18 16:16:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-06-18 16:16:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-06-18 17:29:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-06-18 17:24:28 +0300"
     },
     "done": true
   },

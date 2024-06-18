@@ -1,25 +1,46 @@
-[14:34:18] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[14:34:18] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[14:34:18] [ServerMain/WARN]: Disabling further attempts to query Paging File.
-[14:34:19] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
-[14:34:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:34:26] [ServerMain/INFO]: Loaded 1290 recipes
-[14:34:26] [ServerMain/INFO]: Loaded 1399 advancements
-[14:34:27] [Server thread/INFO]: Starting minecraft server version 1.21
-[14:34:27] [Server thread/INFO]: Loading properties
-[14:34:27] [Server thread/INFO]: Default game type: SURVIVAL
-[14:34:27] [Server thread/INFO]: Generating keypair
-[14:34:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:34:27] [Server thread/INFO]: Using default channel type
-[14:34:27] [Server thread/INFO]: Preparing level "world"
-[14:34:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:34:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:34:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[14:34:30] [Server thread/INFO]: Time elapsed: 610 ms
-[14:34:30] [Server thread/INFO]: Done (3.090s)! For help, type "help"
-[14:37:19] [User Authenticator #1/INFO]: UUID of player groxifan is 1cf0e7ee-7ed8-430f-b141-ade3bfd9fdc1
-[14:37:22] [Server thread/INFO]: groxifan[/127.188.48.131:50809] logged in with entity id 5 at (-179.3168417698708, 71.9375, -536.0789353569937)
-[14:37:22] [Server thread/INFO]: groxifan joined the game
-[14:38:28] [User Authenticator #2/INFO]: UUID of player Crazy_Shiva is 602af89b-6924-4513-bbef-361c12e650d8
-[14:38:29] [Server thread/INFO]: Crazy_Shiva[/127.167.50.101:50918] logged in with entity id 524 at (-210.13272114836235, 81.0, -618.9217583866797)
-[14:38:29] [Server thread/INFO]: Crazy_Shiva joined the game
+[19:49:58] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[19:49:58] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[19:49:58] [ServerMain/WARN]: Disabling further attempts to query Paging File.
+[19:49:58] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[19:50:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:50:07] [ServerMain/INFO]: Loaded 1290 recipes
+[19:50:08] [ServerMain/INFO]: Loaded 1399 advancements
+[19:50:09] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:50:09] [Server thread/INFO]: Loading properties
+[19:50:09] [Server thread/INFO]: Default game type: SURVIVAL
+[19:50:09] [Server thread/INFO]: Generating keypair
+[19:50:09] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at apn$1.run(SourceFile:103) [server-1.21.jar:?]
+[19:50:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:50:09] [Server thread/INFO]: Using default channel type
+[19:50:09] [Server thread/INFO]: Preparing level "world"
+[19:50:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:50:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:50:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:50:13] [Server thread/INFO]: Time elapsed: 711 ms
+[19:50:13] [Server thread/INFO]: Done (3.463s)! For help, type "help"
+[19:50:38] [Server thread/INFO]: Stopping server
+[19:50:38] [Server thread/INFO]: Saving players
+[19:50:38] [Server thread/INFO]: Saving worlds
+[19:50:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[19:50:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[19:50:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
