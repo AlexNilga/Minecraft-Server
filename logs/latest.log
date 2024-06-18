@@ -1,0 +1,25 @@
+[14:34:18] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[14:34:18] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[14:34:18] [ServerMain/WARN]: Disabling further attempts to query Paging File.
+[14:34:19] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[14:34:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:34:26] [ServerMain/INFO]: Loaded 1290 recipes
+[14:34:26] [ServerMain/INFO]: Loaded 1399 advancements
+[14:34:27] [Server thread/INFO]: Starting minecraft server version 1.21
+[14:34:27] [Server thread/INFO]: Loading properties
+[14:34:27] [Server thread/INFO]: Default game type: SURVIVAL
+[14:34:27] [Server thread/INFO]: Generating keypair
+[14:34:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:34:27] [Server thread/INFO]: Using default channel type
+[14:34:27] [Server thread/INFO]: Preparing level "world"
+[14:34:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:34:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[14:34:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[14:34:30] [Server thread/INFO]: Time elapsed: 610 ms
+[14:34:30] [Server thread/INFO]: Done (3.090s)! For help, type "help"
+[14:37:19] [User Authenticator #1/INFO]: UUID of player groxifan is 1cf0e7ee-7ed8-430f-b141-ade3bfd9fdc1
+[14:37:22] [Server thread/INFO]: groxifan[/127.188.48.131:50809] logged in with entity id 5 at (-179.3168417698708, 71.9375, -536.0789353569937)
+[14:37:22] [Server thread/INFO]: groxifan joined the game
+[14:38:28] [User Authenticator #2/INFO]: UUID of player Crazy_Shiva is 602af89b-6924-4513-bbef-361c12e650d8
+[14:38:29] [Server thread/INFO]: Crazy_Shiva[/127.167.50.101:50918] logged in with entity id 524 at (-210.13272114836235, 81.0, -618.9217583866797)
+[14:38:29] [Server thread/INFO]: Crazy_Shiva joined the game
