@@ -1,15 +1,15 @@
-[19:49:58] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[19:49:58] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[19:49:58] [ServerMain/WARN]: Disabling further attempts to query Paging File.
-[19:49:58] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
-[19:50:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:50:07] [ServerMain/INFO]: Loaded 1290 recipes
-[19:50:08] [ServerMain/INFO]: Loaded 1399 advancements
-[19:50:09] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:50:09] [Server thread/INFO]: Loading properties
-[19:50:09] [Server thread/INFO]: Default game type: SURVIVAL
-[19:50:09] [Server thread/INFO]: Generating keypair
-[19:50:09] [Server console handler/ERROR]: Exception handling console input
+[11:15:40] [ServerMain/WARN]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[11:15:40] [ServerMain/WARN]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[11:15:40] [ServerMain/WARN]: Disabling further attempts to query Paging File.
+[11:15:42] [ServerMain/WARN]: COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[11:15:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:15:51] [ServerMain/INFO]: Loaded 1290 recipes
+[11:15:52] [ServerMain/INFO]: Loaded 1399 advancements
+[11:15:53] [Server thread/INFO]: Starting minecraft server version 1.21
+[11:15:53] [Server thread/INFO]: Loading properties
+[11:15:53] [Server thread/INFO]: Default game type: SURVIVAL
+[11:15:53] [Server thread/INFO]: Generating keypair
+[11:15:53] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -26,21 +26,214 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at apn$1.run(SourceFile:103) [server-1.21.jar:?]
-[19:50:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:50:09] [Server thread/INFO]: Using default channel type
-[19:50:09] [Server thread/INFO]: Preparing level "world"
-[19:50:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:50:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[19:50:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[19:50:13] [Server thread/INFO]: Time elapsed: 711 ms
-[19:50:13] [Server thread/INFO]: Done (3.463s)! For help, type "help"
-[19:50:38] [Server thread/INFO]: Stopping server
-[19:50:38] [Server thread/INFO]: Saving players
-[19:50:38] [Server thread/INFO]: Saving worlds
-[19:50:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
-[19:50:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
-[19:50:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
-[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:50:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:15:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:15:53] [Server thread/INFO]: Using default channel type
+[11:15:53] [Server thread/INFO]: Preparing level "world"
+[11:15:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:15:56] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[11:15:56] [Server thread/INFO]: Time elapsed: 495 ms
+[11:15:56] [Server thread/INFO]: Done (3.080s)! For help, type "help"
+[11:22:30] [User Authenticator #1/INFO]: UUID of player Pitsa666 is 2b5c672d-66df-47c2-8b65-fac98054f28d
+[11:22:33] [Server thread/INFO]: Pitsa666[/127.70.203.96:55538] logged in with entity id 5 at (-223.13692336701354, 63.1212968405392, -549.1884389136196)
+[11:22:33] [Server thread/INFO]: Pitsa666 joined the game
+[11:22:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[11:23:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3156ms or 63 ticks behind
+[11:28:09] [User Authenticator #2/INFO]: UUID of player groxifan is 1cf0e7ee-7ed8-430f-b141-ade3bfd9fdc1
+[11:28:11] [Server thread/INFO]: groxifan[/127.188.48.131:55619] logged in with entity id 2017 at (-265.7836953574768, 62.5875, -541.2932551321129)
+[11:28:12] [Server thread/INFO]: groxifan joined the game
+[11:28:45] [Server thread/INFO]: groxifan lost connection: Disconnected
+[11:28:45] [Server thread/INFO]: groxifan left the game
+[11:28:59] [User Authenticator #3/INFO]: UUID of player groxifan is 1cf0e7ee-7ed8-430f-b141-ade3bfd9fdc1
+[11:29:00] [Server thread/INFO]: groxifan[/127.188.48.131:55632] logged in with entity id 2337 at (-265.8384625135332, 62.5875, -535.2611324363428)
+[11:29:00] [Server thread/INFO]: groxifan joined the game
+[11:29:16] [Server thread/INFO]: groxifan lost connection: Disconnected
+[11:29:16] [Server thread/INFO]: groxifan left the game
+[11:29:19] [User Authenticator #4/INFO]: UUID of player groxifan is 1cf0e7ee-7ed8-430f-b141-ade3bfd9fdc1
+[11:29:20] [Server thread/INFO]: groxifan[/127.188.48.131:55638] logged in with entity id 2432 at (-265.81787321647425, 62.5875, -534.4201658593595)
+[11:29:20] [Server thread/INFO]: groxifan joined the game
+[11:29:28] [Server thread/INFO]: Villager cmk['Cleric'/2434, l='ServerLevel[Новый мир]', x=-267.26, y=63.19, z=-530.69] died, message: 'Cleric was slain by Pitsa666'
+[11:30:59] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-38, y=54, z=-68} jd{x=-39, y=54, z=-68}
+[11:55:13] [User Authenticator #5/INFO]: UUID of player Crazy_Shiva is 602af89b-6924-4513-bbef-361c12e650d8
+[11:55:14] [Server thread/INFO]: Crazy_Shiva[/127.167.50.101:55813] logged in with entity id 11216 at (-205.6679682452183, 76.0, -615.5098512649353)
+[11:55:14] [Server thread/INFO]: Crazy_Shiva joined the game
+[11:56:12] [Server thread/INFO]: Crazy_Shiva has made the advancement [Sneak 100]
+[11:57:28] [Server thread/INFO]: Crazy_Shiva has made the advancement [We Need to Go Deeper]
+[12:01:30] [Server thread/INFO]: Crazy_Shiva has made the advancement [What a Deal!]
+[12:01:30] [Server thread/INFO]: Crazy_Shiva has made the advancement [Cover Me with Diamonds]
+[12:08:21] [User Authenticator #6/INFO]: UUID of player Gekatron is 07fbc5c8-163d-4940-990e-163a2aa66da1
+[12:08:23] [Server thread/INFO]: Gekatron[/127.194.176.16:55867] logged in with entity id 16437 at (-211.49923895460915, 77.5625, -620.8581835641953)
+[12:08:23] [Server thread/INFO]: Gekatron joined the game
+[12:09:30] [Server thread/INFO]: Gekatron has made the advancement [We Need to Go Deeper]
+[12:10:20] [Server thread/INFO]: Gekatron has made the advancement [What a Deal!]
+[12:12:27] [Server thread/INFO]: Gekatron has made the advancement [Cover Me with Diamonds]
+[12:29:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[12:30:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3789ms or 75 ticks behind
+[12:32:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[12:32:27] [Server thread/INFO]: <groxifan> є=====3
+[12:32:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[12:33:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
+[12:35:07] [Server thread/WARN]: Oak Boat (vehicle of Crazy_Shiva) moved wrongly! 0.2824275156722251
+[12:35:07] [Server thread/WARN]: Oak Boat (vehicle of Crazy_Shiva) moved wrongly! 0.5429384246111795
+[12:35:08] [Server thread/WARN]: Oak Boat (vehicle of Crazy_Shiva) moved wrongly! 0.3777732387080732
+[12:36:13] [User Authenticator #7/INFO]: UUID of player OrLeIN is b35c266d-667a-48d7-a0fd-2e5b5d545ba7
+[12:36:15] [Server thread/INFO]: OrLeIN[/127.184.50.221:56131] logged in with entity id 46880 at (-210.38735483361424, 77.0, -634.3221727167756)
+[12:36:15] [Server thread/INFO]: OrLeIN joined the game
+[12:36:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[12:36:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5393ms or 107 ticks behind
+[12:37:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[12:37:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[12:37:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2129ms or 42 ticks behind
+[12:38:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[12:39:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6444ms or 128 ticks behind
+[12:39:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4532ms or 90 ticks behind
+[12:39:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4741ms or 94 ticks behind
+[12:40:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4093ms or 81 ticks behind
+[12:40:25] [Server thread/WARN]: Oak Boat (vehicle of Crazy_Shiva) moved wrongly! 0.4802530843319346
+[12:40:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4289ms or 85 ticks behind
+[12:40:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
+[12:41:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[12:41:23] [Server thread/INFO]: groxifan has made the advancement [Cover Me with Diamonds]
+[12:41:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
+[12:42:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[12:43:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3151ms or 63 ticks behind
+[12:43:14] [Server thread/INFO]: OrLeIN lost connection: Disconnected
+[12:43:14] [Server thread/INFO]: OrLeIN left the game
+[12:43:19] [User Authenticator #8/INFO]: UUID of player OrLeIN is b35c266d-667a-48d7-a0fd-2e5b5d545ba7
+[12:43:23] [Server thread/INFO]: OrLeIN[/127.184.50.221:56173] logged in with entity id 57948 at (-308.75717249197044, 90.0, -526.8130969851414)
+[12:43:23] [Server thread/INFO]: OrLeIN joined the game
+[12:43:33] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-219, y=52, z=-586} jd{x=-219, y=53, z=-586}
+[12:43:33] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-219, y=52, z=-586} jd{x=-219, y=53, z=-586}
+[12:44:23] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-221, y=49, z=-588} jd{x=-221, y=47, z=-588}
+[12:44:23] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-220, y=50, z=-587} jd{x=-221, y=49, z=-587}
+[12:44:26] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-219, y=48, z=-588} jd{x=-219, y=46, z=-588}
+[12:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[12:45:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2551ms or 51 ticks behind
+[12:45:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8986ms or 179 ticks behind
+[12:46:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5952ms or 119 ticks behind
+[12:46:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[12:47:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2396ms or 47 ticks behind
+[12:47:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3268ms or 65 ticks behind
+[12:49:17] [Server thread/INFO]: <groxifan> -29 57 -72
+[12:49:49] [Server thread/INFO]: Gekatron has made the advancement [The Parrots and the Bats]
+[12:50:14] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-224, y=87, z=81} jd{x=-223, y=86, z=81}
+[12:53:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[12:53:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[12:53:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5815ms or 116 ticks behind
+[12:54:11] [Server thread/INFO]: Pitsa666 has made the advancement [Oh Shiny]
+[12:54:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4931ms or 98 ticks behind
+[12:54:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[12:56:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[13:03:18] [Server thread/INFO]: groxifan has made the advancement [Those Were the Days]
+[13:03:20] [Server thread/INFO]: Pitsa666 has made the advancement [Those Were the Days]
+[13:03:42] [Server thread/WARN]: Oak Boat (vehicle of Gekatron) moved wrongly! 0.25990570096746524
+[13:07:00] [Server thread/INFO]: Pitsa666 has made the advancement [War Pigs]
+[13:07:32] [Server thread/INFO]: groxifan lost connection: Disconnected
+[13:07:32] [Server thread/INFO]: groxifan left the game
+[13:07:49] [Server thread/INFO]: Gekatron has made the advancement [Total Beelocation]
+[13:07:57] [Server thread/INFO]: Pitsa666 has made the advancement [Hidden in the Depths]
+[13:08:22] [Server thread/INFO]: Pitsa666 lost connection: Disconnected
+[13:08:22] [Server thread/INFO]: Pitsa666 left the game
+[13:08:27] [User Authenticator #9/INFO]: UUID of player Pitsa666 is 2b5c672d-66df-47c2-8b65-fac98054f28d
+[13:08:28] [Server thread/INFO]: Pitsa666[/127.70.203.96:56806] logged in with entity id 84030 at (71.37092882289818, 33.73951950853503, 45.27729261666932)
+[13:08:28] [Server thread/INFO]: Pitsa666 joined the game
+[13:09:30] [User Authenticator #10/INFO]: UUID of player groxifan is 1cf0e7ee-7ed8-430f-b141-ade3bfd9fdc1
+[13:09:31] [Server thread/INFO]: groxifan[/127.188.48.131:56834] logged in with entity id 85074 at (69.30000001192093, 38.0, 31.225711036180325)
+[13:09:31] [Server thread/INFO]: groxifan joined the game
+[13:10:13] [Server thread/INFO]: groxifan has made the advancement [War Pigs]
+[13:11:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[13:11:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3737ms or 74 ticks behind
+[13:12:09] [Server thread/WARN]: Oak Boat (vehicle of Gekatron) moved too quickly! -0.02218810861199927,0.0,-10.385851044235096
+[13:12:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5220ms or 104 ticks behind
+[13:12:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4788ms or 95 ticks behind
+[13:12:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2146ms or 42 ticks behind
+[13:13:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[13:13:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[13:15:01] [Server thread/INFO]: [Pitsa666: Set own game mode to Spectator Mode]
+[13:15:09] [Server thread/INFO]: Villager cmk['Nitwit'/87443, l='ServerLevel[Новый мир]', x=1441.49, y=64.00, z=-1614.70] died, message: 'Nitwit was slain by Zombie'
+[13:15:27] [Server thread/INFO]: [Pitsa666: Set own game mode to Survival Mode]
+[13:16:26] [Server thread/INFO]: Gekatron has made the advancement [Not Today, Thank You]
+[13:16:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[13:18:35] [Server thread/INFO]: <Gekatron> 1694 -1874
+[13:18:49] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=40, y=61, z=-19} jd{x=34, y=60, z=-22}
+[13:18:49] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=40, y=61, z=-19} jd{x=34, y=60, z=-22}
+[13:19:40] [Server thread/INFO]: groxifan has made the advancement [Oh Shiny]
+[13:20:10] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=44, y=61, z=-16} jd{x=36, y=58, z=-21}
+[13:20:10] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=44, y=61, z=-16} jd{x=36, y=58, z=-21}
+[13:21:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[13:22:46] [Server thread/INFO]: Pitsa666 lost connection: Disconnected
+[13:22:46] [Server thread/INFO]: Pitsa666 left the game
+[13:23:31] [User Authenticator #11/INFO]: UUID of player Pitsa666 is 2b5c672d-66df-47c2-8b65-fac98054f28d
+[13:23:32] [Server thread/INFO]: Pitsa666[/127.70.203.96:57127] logged in with entity id 96239 at (-249.55014704706593, 63.0, -572.8611880949555)
+[13:23:32] [Server thread/INFO]: Pitsa666 joined the game
+[13:24:35] [Server thread/WARN]: Pitsa666 moved too quickly! 0.09949844193656077,-10.529193645291333,-0.24035271403295155
+[13:24:52] [Server thread/INFO]: Gekatron has made the advancement [Ice Bucket Challenge]
+[13:27:09] [Server thread/WARN]: groxifan moved too quickly! 0.2446138791818271,-10.834569721076551,0.2897854178855823
+[13:31:10] [Server thread/INFO]: OrLeIN lost connection: Disconnected
+[13:31:10] [Server thread/INFO]: OrLeIN left the game
+[13:31:26] [User Authenticator #12/INFO]: UUID of player OrLeIN is b35c266d-667a-48d7-a0fd-2e5b5d545ba7
+[13:31:27] [Server thread/INFO]: OrLeIN[/127.184.50.221:57193] logged in with entity id 100589 at (-307.9784271260894, 90.0, -526.4939948442296)
+[13:31:27] [Server thread/INFO]: OrLeIN joined the game
+[13:31:31] [Server thread/INFO]: OrLeIN lost connection: Disconnected
+[13:31:31] [Server thread/INFO]: OrLeIN left the game
+[13:32:18] [User Authenticator #13/INFO]: UUID of player OrLeIN is b35c266d-667a-48d7-a0fd-2e5b5d545ba7
+[13:32:19] [Server thread/INFO]: OrLeIN[/127.184.50.221:57201] logged in with entity id 101195 at (-307.9784271260894, 90.0, -526.4939948442296)
+[13:32:19] [Server thread/INFO]: OrLeIN joined the game
+[13:37:34] [Server thread/INFO]: Pitsa666 has reached the goal [Revaulting]
+[13:37:42] [Server thread/INFO]: groxifan has reached the goal [Revaulting]
+[13:40:17] [Server thread/INFO]: Pitsa666 has made the advancement [Who Needs Rockets?]
+[13:41:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[13:43:11] [Server thread/INFO]: groxifan has made the advancement [Who Needs Rockets?]
+[13:43:26] [Server thread/WARN]: Oak Boat (vehicle of Gekatron) moved too quickly! 9.545516565238813,0.0,-4.128292575231626
+[13:43:26] [Server thread/WARN]: Oak Boat (vehicle of Gekatron) moved too quickly! 9.912659817756776,0.0,-4.287055556624182
+[13:43:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2632ms or 52 ticks behind
+[13:43:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[13:45:14] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=3365, y=67, z=-2021} jd{x=3364, y=66, z=-2021}
+[13:45:15] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=3368, y=67, z=-2021} jd{x=3365, y=66, z=-2020}
+[13:45:15] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=3368, y=67, z=-2021} jd{x=3365, y=66, z=-2020}
+[13:45:15] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=3368, y=67, z=-2021} jd{x=3365, y=66, z=-2020}
+[13:46:04] [Server thread/INFO]: Pitsa666 has made the advancement [Ol' Betsy]
+[13:46:04] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=3373, y=68, z=-2018} jd{x=3376, y=67, z=-2016}
+[13:49:55] [Server thread/INFO]: Pitsa666 lost connection: Disconnected
+[13:49:55] [Server thread/INFO]: Pitsa666 left the game
+[13:50:38] [Server thread/INFO]: Gekatron has made the advancement [Best Friends Forever]
+[13:57:54] [Server thread/INFO]: groxifan lost connection: Disconnected
+[13:57:54] [Server thread/INFO]: groxifan left the game
+[14:00:43] [Server thread/INFO]: OrLeIN has made the advancement [What a Deal!]
+[14:02:05] [Server thread/INFO]: OrLeIN has made the advancement [Cover Me with Diamonds]
+[14:06:24] [Server thread/INFO]: Crazy_Shiva lost connection: Disconnected
+[14:06:24] [Server thread/INFO]: Crazy_Shiva left the game
+[14:07:44] [User Authenticator #14/INFO]: UUID of player Pitsa666 is 2b5c672d-66df-47c2-8b65-fac98054f28d
+[14:07:45] [Server thread/INFO]: Pitsa666[/127.70.203.96:57435] logged in with entity id 129913 at (-255.3649912498813, 63.0, -569.3598446607111)
+[14:07:45] [Server thread/INFO]: Pitsa666 joined the game
+[14:17:39] [Server thread/INFO]: Pitsa666 lost connection: Disconnected
+[14:17:39] [Server thread/INFO]: Pitsa666 left the game
+[14:20:57] [Server thread/WARN]: Horse (vehicle of Gekatron) moved wrongly! 0.337915394182005
+[14:20:57] [Server thread/WARN]: Horse (vehicle of Gekatron) moved wrongly! 0.6766563474529903
+[14:20:57] [Server thread/WARN]: Horse (vehicle of Gekatron) moved wrongly! 1.015202135747586
+[14:21:29] [User Authenticator #15/INFO]: UUID of player groxifan is 1cf0e7ee-7ed8-430f-b141-ade3bfd9fdc1
+[14:21:31] [Server thread/INFO]: groxifan[/127.188.48.131:57503] logged in with entity id 138796 at (-230.8511492073298, 63.0, -554.6183239705066)
+[14:21:31] [Server thread/INFO]: groxifan joined the game
+[14:22:12] [User Authenticator #16/INFO]: UUID of player Crazy_Shiva is 602af89b-6924-4513-bbef-361c12e650d8
+[14:22:13] [Server thread/INFO]: Crazy_Shiva[/127.167.50.101:57508] logged in with entity id 139086 at (-215.7086020269562, 77.0, -616.1648918031489)
+[14:22:13] [Server thread/INFO]: Crazy_Shiva joined the game
+[14:24:56] [Server thread/INFO]: Crazy_Shiva lost connection: Disconnected
+[14:24:56] [Server thread/INFO]: Crazy_Shiva left the game
+[14:26:05] [Server thread/INFO]: OrLeIN lost connection: Disconnected
+[14:26:05] [Server thread/INFO]: OrLeIN left the game
+[14:27:06] [Server thread/INFO]: Gekatron lost connection: Disconnected
+[14:27:06] [Server thread/INFO]: Gekatron left the game
+[14:54:53] [Server thread/INFO]: groxifan lost connection: Disconnected
+[14:54:53] [Server thread/INFO]: groxifan left the game
+[14:55:00] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:55:00] [Server thread/INFO]: STOP<--[HERE]
+[14:55:03] [Server thread/INFO]: Stopping the server
+[14:55:03] [Server thread/INFO]: Stopping server
+[14:55:03] [Server thread/INFO]: Saving players
+[14:55:03] [Server thread/INFO]: Saving worlds
+[14:55:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[14:55:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[14:55:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[14:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:55:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
